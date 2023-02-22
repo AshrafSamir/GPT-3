@@ -7,13 +7,12 @@ import {
   Possibility,
   WhatGPT3,
 } from "./containers";
-import { Articel, Brand, CTA, Feature, Navbar } from "./components";
+import { Brand, CTA, Navbar } from "./components";
 
 import "./App.css";
 const App = () => {
   return (
     <div>
-      {" "}
       <div className="App">
         <div className="gradient__bg">
           <Navbar />
